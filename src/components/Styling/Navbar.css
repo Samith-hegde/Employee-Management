@@ -1,0 +1,31 @@
+.vertical-nav {
+  width: 200px;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: auto;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-nav li {
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.vertical-nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.vertical-nav li a:hover {
+  background-color: #575757;
+}
